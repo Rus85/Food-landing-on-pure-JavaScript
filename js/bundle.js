@@ -2297,11 +2297,11 @@ function menuCards() {
 
       this.classes = classes;
       this.parent = document.querySelector(parentSelector);
-      this.tranfer = 27;
-      this.changeToUAH();
+      this.tranfer = 70;
+      this.changeToRU();
     }
 
-    changeToUAH() {
+    changeToRU() {
       this.price = this.price * this.tranfer;
     }
 
@@ -2321,7 +2321,7 @@ function menuCards() {
         <div class="menu__item-divider"></div>
         <div class="menu__item-price">
         <div class="menu__item-cost"></div>
-        <div class="menu__item-total"><span>${this.price}</span> грн/день</div>
+        <div class="menu__item-total"><span>${this.price}</span> руб/день</div>
         </div>
          `;
       this.parent.append(element);
@@ -2387,7 +2387,7 @@ function menuCards() {
         <div class="menu__item-divider"></div>
         <div class="menu__item-price">
         <div class="menu__item-cost"></div>
-        <div class="menu__item-total"><span>${price}</span> грн/день</div>
+        <div class="menu__item-total"><span>${price}</span> руб/день</div>
         </div>
             `;
       document.querySelector('.menu .container').append(element);
@@ -2959,7 +2959,7 @@ window.addEventListener('DOMContentLoaded', () => {
   (0,_js_modules_forms__WEBPACK_IMPORTED_MODULE_2__["default"])('form', modalTimerId);
   (0,_js_modules_modal__WEBPACK_IMPORTED_MODULE_3__["default"])('[data-modal]', '.modal');
   (0,_js_modules_tabs__WEBPACK_IMPORTED_MODULE_5__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
-  (0,_js_modules_timer__WEBPACK_IMPORTED_MODULE_6__["default"])('.timer', '2022 - 03 - 25');
+  (0,_js_modules_timer__WEBPACK_IMPORTED_MODULE_6__["default"])('.timer', '2022-05-30');
   (0,_js_modules_slider__WEBPACK_IMPORTED_MODULE_4__["default"])({
     container: '.offer__slider',
     slide: '.offer__slide',
