@@ -2959,7 +2959,7 @@ window.addEventListener('DOMContentLoaded', () => {
   (0,_js_modules_forms__WEBPACK_IMPORTED_MODULE_2__["default"])('form', modalTimerId);
   (0,_js_modules_modal__WEBPACK_IMPORTED_MODULE_3__["default"])('[data-modal]', '.modal');
   (0,_js_modules_tabs__WEBPACK_IMPORTED_MODULE_5__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
-  (0,_js_modules_timer__WEBPACK_IMPORTED_MODULE_6__["default"])('.timer', '2022-05-30');
+  (0,_js_modules_timer__WEBPACK_IMPORTED_MODULE_6__["default"])('.timer', '2022-09-01');
   (0,_js_modules_slider__WEBPACK_IMPORTED_MODULE_4__["default"])({
     container: '.offer__slider',
     slide: '.offer__slide',
