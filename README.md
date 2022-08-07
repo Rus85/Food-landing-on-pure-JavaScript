@@ -1,4 +1,4 @@
-## Landing on pure JavaScript
+## Landing page on pure JavaScript
 ## Установка зависимостей
 ### `npm i`
 ## Сборка модулей
